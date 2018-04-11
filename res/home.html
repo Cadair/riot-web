@@ -31,6 +31,7 @@
 .mx_HomePage_header {
     border: 1px solid #76CFA6;
     background-color: #eaf5f0;
+
     border-radius: 5px;
     align-items: center;
 }
@@ -109,9 +110,9 @@
     margin: 20px;
 }
 
-.mx_HomePage_container h1, 
-.mx_HomePage_container h2, 
-.mx_HomePage_container h3, 
+.mx_HomePage_container h1,
+.mx_HomePage_container h2,
+.mx_HomePage_container h3,
 .mx_HomePage_container h4 {
     font-weight: 600;
 }
@@ -119,12 +120,184 @@
 
 <div class="mx_HomePage_container">
     <div class="mx_HomePage_col mx_HomePage_header">
-        <a href="https://riot.im"><img src="home/images/logo.svg" class="mx_HomePage_logo"></a>
+        <a href="http://openastronomy.org"><img src="home/images/logoOA_full.png" class="mx_HomePage_logo"></a>
         <div>
-            <h1>_t("Welcome to Riot.im")</h1>
-            <h2>_t("Decentralised, encrypted chat &amp; collaboration powered by [matrix]")</h2>
+            <h1>Welcome to chat.openastronomy.org</h1>
+            <h2>_t("Decentralised, open chat &amp; collaboration powered by [matrix]")</h2>
         </div>
     </div>
+
+    <div class="mx_HomePage_row">
+        <p>
+            To get started join one or more rooms and communities below.
+        </p>
+        <p>
+            Communities in Matrix are a collection of rooms, most of the
+            OpenAstronomy communties below are publically join able, from the
+            community page you can see all the rooms in that community and join
+            as many as you wish. You can be a memeber of as many communities as
+            you wish, and use them to filter your rooms.
+        </p>
+    </div>
+
+    <div class="mx_HomePage_col">
+        <div class="mx_HomePage_row">
+            <div style="width:100%">
+                <h4>OpenAstronomy</h4>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/room/#openastronomy:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/logoOA.png">
+                    <span class="mx_HomePage_name">OpenAstronomy</span>
+                </a>
+                <span class="mx_HomePage_desc">The general OpenAstronomy chat.</span>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/group/+openastronomy:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/logoOA.png">
+                    <span class="mx_HomePage_name">OpenAstronomy Community</span>
+                </a>
+                <span class="mx_HomePage_desc">The matrix community for OpenAstronomy.</span>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/room/#chat:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/logoOA.png">
+                    <span class="mx_HomePage_name">OpenAstronomy [matrix]</span>
+                </a>
+                <span class="mx_HomePage_desc">A room to discuss and ask questions about chat.openastronomy.org</span>
+            </div>
+        </div>
+        <div class="mx_HomePage_row">
+            <div style="width:100%">
+                <h4>Python in Astronomy</h4>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/room/#pyastro18_general:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/pyastro_logo.png">
+                    <span class="mx_HomePage_name">PyAstro18 General</span>
+                </a>
+                <span class="mx_HomePage_desc">The main PyAstro18 chat room.</span>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/group/+pyastro18:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/pyastro_logo.png">
+                    <span class="mx_HomePage_name">PyAstro18 Community</span>
+                </a>
+                <span class="mx_HomePage_desc">The Python in Astronomy 2018 community.</span>
+            </div>
+        </div>
+    </div>
+
+    <h3>Member Projects on Matrix</h3>
+
+    <div class="mx_HomePage_col">
+        <div class="mx_HomePage_row">
+            <div style="width:100%">
+                <h4>SunPy</h4>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/room/#sunpy:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/sunpy_icon.svg">
+                    <span class="mx_HomePage_name">SunPy</span>
+                </a>
+                <span class="mx_HomePage_desc">The main SunPy chat room.</span>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/group/+sunpy:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/sunpy_icon.svg">
+                    <span class="mx_HomePage_name">SunPy Community</span>
+                </a>
+                <span class="mx_HomePage_desc">The SunPy Matrix community.</span>
+            </div>
+        </div>
+        <div class="mx_HomePage_row">
+            <div style="width:100%">
+                <h4>Astropy</h4>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/room/#astropy_general:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/astropy.png">
+                    <span class="mx_HomePage_name">Astropy</span>
+                </a>
+                <span class="mx_HomePage_desc">The main Astropy chat room.</span>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/group/+astropy:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/astropy.png">
+                    <span class="mx_HomePage_name">Astropy Community</span>
+                </a>
+                <span class="mx_HomePage_desc">The Astropy Matrix community.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="mx_HomePage_col">
+        <div class="mx_HomePage_row">
+            <div style="width:100%">
+                <h4>PlasmaPy</h4>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/room/#plasmapy:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/plasmapy.svg">
+                    <span class="mx_HomePage_name">PlasmaPy</span>
+                </a>
+                <span class="mx_HomePage_desc">The main PlasmaPy chat room.</span>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/group/+plasmapy:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/plasmapy.svg">
+                    <span class="mx_HomePage_name">PlasmaPy Community</span>
+                </a>
+                <span class="mx_HomePage_desc">The PlasmaPy Matrix community.</span>
+            </div>
+        </div>
+        <div class="mx_HomePage_row">
+            <div style="width:100%">
+                <h4>Poliastro</h4>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/room/#poliastro:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/poliastro.png">
+                    <span class="mx_HomePage_name">Poliastro</span>
+                </a>
+                <span class="mx_HomePage_desc">The main Poliastro chat room.</span>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/group/+poliastro:matrix.org">
+                    <img class="mx_HomePage_icon" src="home/images/poliastro.png">
+                    <span class="mx_HomePage_name">Poliastro Community</span>
+                </a>
+                <span class="mx_HomePage_desc">The Poliastro Matrix community.</span>
+            </div>
+        </div>
+    </div>
+    <div class="mx_HomePage_col">
+        <div class="mx_HomePage_row">
+            <div style="width:100%">
+                <h4>Heliopy</h4>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/room/#heliopy:openastronomy.org">
+                    <img class="mx_HomePage_icon" src="home/images/heliopy.png">
+                    <span class="mx_HomePage_name">Heliopy</span>
+                </a>
+                <span class="mx_HomePage_desc">The main Heliopy chat room.</span>
+            </div>
+        </div>
+        <div class="mx_HomePage_row">
+            <div style="width:100%">
+                <h4>yt</h4>
+            </div>
+            <div class="mx_HomePage_room">
+                <a href="#/room/#freenode_#yt:matrix.org">
+                    <img class="mx_HomePage_icon" src="home/images/yt-logo.png">
+                    <span class="mx_HomePage_name">yt</span>
+                </a>
+                <span class="mx_HomePage_desc">The yt IRC chat room</span>
+            </div>
+        </div>
+    </div>
+
     <div class="mx_HomePage_col mx_HomePage_toprow">
         <div class="mx_HomePage_row">
             <div>
@@ -133,160 +306,9 @@
                     <img class="mx_HomePage_icon" src="img/icons-directory.svg">
                 </a>
                 <span class="mx_HomePage_comment">
-                    _t("Lots of rooms already exist in Matrix, linked to existing networks (Slack, IRC, Gitter etc) or independent. Check out the directory!")
-                 </span>
-            </div>
-        </div>
-        <div class="mx_HomePage_row">
-            <div>
-                <h3>_t("Chat with Riot Bot")</h3>
-                <a class="mx_HomePage_room" href="#/user/@riot-bot:matrix.org?action=chat">
-                    <img class="mx_HomePage_icon" src="home/rooms/riot-bot.png">
-                </a>
-                <span class="mx_HomePage_comment">
-                    _t("Get started with some tips from Riot Bot!")
+                    Lots of other rooms exist in Matrix, linked to existing networks (Slack, IRC, Gitter etc) or independent. Check out the directory!
                 </span>
             </div>
-        </div>
-    </div>
-
-    <h3>_t("General discussion about Matrix and Riot")</h3>
-
-    <div class="mx_HomePage_row">
-        <div class="mx_HomePage_room">
-            <a href="#/room/#matrix:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/matrix.png">
-                <span class="mx_HomePage_name">Matrix HQ</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Discussion of all things Matrix!")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#riot:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/riot.png">
-                <span class="mx_HomePage_name">Riot</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Riot/Web &amp; Desktop chat")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#riot-ios:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/riot-ios.png">
-                <span class="mx_HomePage_name">#riot-ios</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Riot/iOS &amp; matrix-ios-sdk chat")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#riot-android:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/riot-android.png">
-                <span class="mx_HomePage_name">#riot-android</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Riot/Android &amp; matrix-android-sdk chat")</span>
-        </div>
-    </div>
-
-    <h3>_t("Matrix technical discussions")</h3>
-    <h4>_t("Running Matrix services")</h4>
-
-    <div class="mx_HomePage_row">
-        <div class="mx_HomePage_room">
-            <a href="#/room/#synapse:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/matrix.png">
-                <span class="mx_HomePage_name">Synapse Support Community</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Community-run support for Synapse")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#dendrite:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/dendrite.png">
-                <span class="mx_HomePage_name">#dendrite:matrix.org</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Admin support for Dendrite")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#homeowners:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/homeowners.png">
-                <span class="mx_HomePage_name">Synapse Homeowners</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Announcements about Synapse releases")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#irc:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/irc.png">
-                <span class="mx_HomePage_name">IRC Matrix Bridges</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Support for those using and running matrix-appservice-irc")</span>
-        </div>
-    </div>
-
-    <h4>_t("Building services on Matrix")</h4>
-
-    <div class="mx_HomePage_row">
-        <div class="mx_HomePage_room">
-            <a href="#/room/#matrix-dev:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/matrix-dev.png">
-                <span class="mx_HomePage_name">#matrix-dev:matrix.org</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Support for those using the Matrix spec")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#e2e:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/e2e.png">
-                <span class="mx_HomePage_name">End-to-end crypto in Matrix</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Design and implementation of E2E in Matrix")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#vr:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/vr.png">
-                <span class="mx_HomePage_name">#vr:matrix.org</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Implementing VR services with Matrix")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#webrtc:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/webrtc.png">
-                <span class="mx_HomePage_name">#webrtc:matrix.org</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Implementing VoIP services with Matrix")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#matrix-identity:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/identity.jpg">
-                <span class="mx_HomePage_name">Matrix Identity</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Discussion of the Identity Service API")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#bridging:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/bridging.png">
-                <span class="mx_HomePage_name">Matrix Bridging</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Support for those using, running and writing other bridges")</span>
-        </div>
-    </div>
-
-    <h4>_t("Contributing code to Matrix and Riot")</h4>
-
-    <div class="mx_HomePage_row">
-        <div class="mx_HomePage_room">
-            <a href="#/room/#riot-dev:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/riot-dev.png">
-                <span class="mx_HomePage_name">#riot-dev</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Dev chat for the Riot/Web dev team")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#dendrite-dev:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/dendrite-dev.png">
-                <span class="mx_HomePage_name">#dendrite-dev</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Dev chat for the Dendrite dev team")</span>
-        </div>
-        <div class="mx_HomePage_room">
-            <a href="#/room/#riotweb-translations:matrix.org">
-                <img class="mx_HomePage_icon" src="home/rooms/riot-translations.png">
-                <span class="mx_HomePage_name">Riot Translations</span>
-            </a>
-            <span class="mx_HomePage_desc">_t("Co-ordination for Riot translators")</span>
         </div>
     </div>
 </div>

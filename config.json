@@ -1,0 +1,29 @@
+{
+    "default_hs_url": "https://matrix.openastronomy.org",
+    "default_is_url": "https://matrix.openastronomy.org",
+    "disable_guests": false,
+    "brand": "OpenAstronomy",
+    "integrations_ui_url": "https://scalar.vector.im/",
+    "integrations_rest_url": "https://scalar.vector.im/api",
+    "bug_report_endpoint_url": "https://riot.im/bugreports/submit",
+    "features": {
+        "feature_groups": "labs",
+        "feature_pinning": "labs"
+    },
+    "default_federate": true,
+    "roomDirectory": {
+        "servers": [
+            "openastronomy.org",
+            "matrix.org"
+        ]
+    },
+    "default_theme": "light",
+    "analyticsOptOut": true,
+    "piwik": {
+        "url": "https://aderyn.home.cadair.com/piwik/",
+        "whitelistedHSUrls": ["https://matrix.openastronomy.org", "https://matrix.org"],
+        "whitelistedISUrls": ["https://matrix.openastronomy.org", "https://vector.im", "https://matrix.org"],
+        "siteId": 2
+    }
+
+}
