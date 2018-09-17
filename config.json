@@ -7,7 +7,6 @@
     "integrations_rest_url": "https://scalar.vector.im/api",
     "bug_report_endpoint_url": "https://riot.im/bugreports/submit",
     "features": {
-        "feature_groups": "labs",
         "feature_pinning": "labs"
     },
     "default_federate": true,
